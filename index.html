@@ -1,0 +1,123 @@
+<html>
+<head>
+	<link rel="stylesheet" href="menu.css">
+<style>
+
+#skill{font-size: 30px;
+	color: silver;
+	text-decoration: none;
+	 border: 3px solid silver;
+	 border-radius: 30px;
+	 padding: 10px;}
+#skill:hover{
+	color: black;
+	background-color: silver;
+}
+
+body{ background-image: url("shadow.jpg");
+            background-repeat: no-repeat;-repeat;
+            background-attachment: fixed;
+          background-size: cover;
+          background-attachment: scroll; 
+    }
+
+#profimg{
+	border: 2px solid silver;
+	border-radius: 50%;
+	width: 35%;
+	text-align: center;
+}
+#profimg:hover{
+	opacity: 80%;
+}
+#heading{color: white;
+	font-family: Papyrus,fantasy;
+	font-size: 60px;
+text-shadow: 5px 4px 8px grey;}
+#paragraph{
+	color: whitesmoke;
+	font-size: 35px;
+	font-family:monaco,monospace;
+	text-align: center;
+
+}
+li{
+	display: inline;
+	list-style-type: none;
+   }
+
+.logo{
+	text-align: center;
+	background-color: black;
+	opacity: 40%;
+	border: 2px solid white;
+	width: 100%;
+}
+.logo:hover{
+	opacity: 80%;
+}
+#icon{
+	background-color: black;
+}
+
+</style>
+</head>
+<body>
+<!--SKILLS------------------------------------------------------->
+    <div id="myNav" class="overlay">
+ 	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  	<div class="overlay-content">
+    <a href="resume.pdf" target="blank"type="application/pdf"><b>SEE RESUME <b></a>
+    <p><b>PROGRAMING&emsp; LANGUAGE<b></p>
+    <p>C&emsp;&emsp;&emsp;&emsp;&emsp;JAVA&emsp;&emsp;&emsp;&emsp;JAVASCRIPT<br></p>.
+    <p>STANDARD&emsp;  MARKUP&emsp;  LANGUAGE<p>
+    <p>HTML&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;CSS&emsp;&emsp;<p>
+    <p><b>DATABASE :&emsp;MYSQL</b></p>
+  	</div>
+	</div>
+
+		<p align="right" style="padding-top: 80px; padding-right: 50px;">
+		<a id="skill" onclick="openNav()">SKILLS</a></p>
+	   	<script>
+		function openNav() {
+		  document.getElementById("myNav").style.width = "100%";
+		}
+
+		function closeNav() {
+		  document.getElementById("myNav").style.width = "0%";
+		}
+		</script>
+		<!--SKILLS END------------------------------------------------------->
+
+		<!--profile------------------------------------------------------->
+		<p align="center" style="padding-top: 100px;"><img id="profimg"  src="myimage.jpg"></p>
+		<h1 id ="heading" align="center"> KSHITIJ<br>&emsp;&emsp;&emsp;&emsp;GANVIR</h1>
+		<p id="paragraph" align="center">A COMPUTER SCIENCE STUDENT <br>
+	    	PURSUIING B-TECH DEGREE <br> 
+			I AM SELF MOTIVATED AND GOAL ORIENTED.<br>
+			PASSIONATE ABOUT LEARNING.<br>
+			MOTIVATED TO HON MY SKILLS.</p>
+
+			<!--logo------------------------------------------------------->
+			<p style="padding-top:50px;">
+			<div class="logo">
+			<li>
+			<a href="https://www.instagram.com/k5h1t1z/" target="blank">
+    		<img src="instagram.png" alt="logo" style="width:50px;height:50px;text-decoration: none;" > &emsp;&emsp;</a></li>
+  			
+    		<li><a href="mailto:kshitizganvir@gmail,com" target="blank">
+		    <img src="gmail.png" alt="logo" style="width:50px;height:50px;text-decoration: none; " >&emsp;&emsp;</a></li>
+		  
+		   <li> <a href="https://www.linkedin.com/in/kshitij-ganvir-63a5a7216/" target="blank">
+		    <img src="linkedin.png" alt="logo" style="width:50px;height:50px;text-decoration: none; " ></a>
+			</li>
+			</div>
+		</p>
+
+        	<p>  <br></p> 
+		  	
+		
+
+
+</body>
+</html>
